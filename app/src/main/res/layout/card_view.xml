@@ -77,6 +77,41 @@
             app:layout_constraintStart_toEndOf="@+id/HP"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <TextView
+            android:id="@+id/damageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Damage "
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.205"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView_CardView"
+            app:layout_constraintVertical_bias="0.139" />
+
+        <TextView
+            android:id="@+id/DamageInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="76"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.285"
+            app:layout_constraintStart_toEndOf="@+id/damageTextView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView_CardView"
+            app:layout_constraintVertical_bias="0.139" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="196dp" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
