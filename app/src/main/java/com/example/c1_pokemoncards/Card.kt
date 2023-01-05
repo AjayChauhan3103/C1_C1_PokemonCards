@@ -1,3 +1,5 @@
+package com.example.c1_pokemoncards
+
 data class Card(
     val ability: Ability,
     val artist: String,
@@ -21,5 +23,6 @@ data class Card(
     val supertype: String,
     val text: List<String>,
     val types: List<String>,
-    val weaknesses: List<Weaknesse>
+   // val weaknesses: List<Weaknesse>
 )
+
