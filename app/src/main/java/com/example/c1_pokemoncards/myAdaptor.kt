@@ -11,7 +11,6 @@ import com.bumptech.glide.Glide
 import com.example.c1_pokemoncards.databinding.ActivityMainBinding
 
 
-lateinit var binding: ActivityMainBinding
 
 class MyAdaptor(val context: Context, val userList: My_Data) : RecyclerView.Adapter<MyAdaptor.Viewholder>() {
     class Viewholder(itemView : View) : RecyclerView.ViewHolder(itemView){
